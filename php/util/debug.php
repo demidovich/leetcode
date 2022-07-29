@@ -6,5 +6,9 @@ function dd(...$args)
 
     foreach ($args as $arg) {
         print_r($arg);
+        echo "\n";
     }
+
+    echo "</pre>";
+    exit;
 }
