@@ -30,10 +30,19 @@ class ListNode
         return $node;
     }
 
-    public function toInverted(): self
-    {
+    // public function toInverted(): self
+    // {
+    //     $list = []; 
+    //     $node = $this;
+    //     $next = null;
 
-    }
+    //     while ($node->next) {
+    //         $list = new ListNode($node->val, $next);
+    //         $node = $node->next;
+    //     }
+
+    //     return $list;
+    // }
 }
 
 /**
@@ -61,6 +70,5 @@ class Solution
 }
 
 $l1 = ListNode::fromArray([2,4,3]);
-
 
 dd($l1);
