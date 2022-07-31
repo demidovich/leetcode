@@ -6,7 +6,7 @@ class ListNode
 {
     public int $val = 0;
     public ?ListNode $next = null;
-    
+
     function __construct($val = 0, $next = null)
     {
         $this->val  = $val;
@@ -102,6 +102,9 @@ class Solution
 $s = new Solution;
 
 $l1 = $s->listFromArray([1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]);
+$l2 = $s->listFromArray([5,6,4]);
+
+$l1 = $s->listFromArray([1,2,3]);
 $l2 = $s->listFromArray([5,6,4]);
 
 dd($l1, $l2, $s->addTwoNumbers($l1, $l2));
