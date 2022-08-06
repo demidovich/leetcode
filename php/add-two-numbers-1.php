@@ -1,5 +1,7 @@
 <?php
 
+namespace AddTwoNumbers1;
+
 include __DIR__ . "/util/debug.php";
 
 class ListNode
