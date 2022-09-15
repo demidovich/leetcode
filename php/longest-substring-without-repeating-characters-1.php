@@ -62,5 +62,6 @@ $s = new Solution;
 
 dd(
     $s->lengthOfLongestSubstring(" "),
-    $s->lengthOfLongestSubstring("au")
+    $s->lengthOfLongestSubstring("au"),
+    $s->lengthOfLongestSubstring("aurwrsdfer4r34rfssfsfsfsrgfergergfeghtrhtyrhytr")
 );
